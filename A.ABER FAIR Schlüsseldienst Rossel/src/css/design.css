@@ -1,0 +1,247 @@
+*{font-family:arial,
+ "lucida console", sans-serif;
+}
+
+h1{text-align: center;}
+
+
+
+body {
+        margin: 50; 
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ebf5ff;
+      }
+
+.topnav {
+
+        overflow: hidden;
+        background-color: #333;
+        }
+
+.topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+          }
+
+.topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+.topnav a.active {
+        background-color: #006e9b;
+        color: white;
+        }
+
+#kontakt{
+        width: 75%;
+        list-style: none;
+        text-align: left;
+        font-size: large;
+
+        }
+
+.links{
+        margin-right: 67%;
+        width: 33%;
+		background-color: #000;
+    position: absolute;
+    padding-bottom:  2%;
+    display: inline;
+
+        }
+
+.rechts{
+        margin-left: 67%;
+		    background-color: #AEF;
+        position: absolute;
+		    padding-bottom:  2%;
+            display: inline;
+
+
+        }
+
+.mitte{
+        margin-left: 34%;
+        margin-right: 34%;
+        position: absolute;
+        padding-bottom:  2%;
+		    background-color: #BAC;
+            display: inline;
+
+      }
+
+ footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+
+        }
+ ul.footer{
+        list-style: none;
+        display: inline;
+         }
+li.ö{ 
+	display: inline;
+	padding-left: 20%;
+}
+li.ö:first-child{padding-left:0%}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #333;;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+input[type=reset] {
+  width: 100%;
+  background-color: #333;;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#footertabelle{
+    width: 100%;
+}
+#footertabelle td{
+    width: 25%;
+}
+
+#Werbung1{
+    text-align: center;
+    font-size: x-large;
+}
+
+#Werbung2{
+    text-align: center;
+    font-size: x-large;
+   
+}
+
+#Werbung2 a:link{ color: #006e9b;
+text-decoration: none;}
+
+.trennstrich{
+    width: 75%;
+}
+
+.Inhalt{
+  width: 75%;
+  text-align: left;
+
+}
+.img1{float: left;
+padding-right: 20px;
+}
+.img2{
+  float: right;
+
+}
+
+.Zwischenschrift{font-size: large;
+  width: 75%;
+text-align: left;
+font-weight: bold;}
+
+ #footer-cookie,
+    #footer-cookie * {
+      box-sizing: border-box;
+    }
+
+    #footer-cookie {
+      display: none;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      height: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
+      line-height: 60px;
+      background: #303030;
+      color: #fff;
+    }
+
+    #footer-cookie a {
+      color: #fff;
+    }
+
+    #footer-cookie #description {
+      float: left;
+    }
+
+    #footer-cookie #accept {
+      float: right;
+    }
+
+    #footer-cookie #accept a {
+      border: 1px solid #fff;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+
+    @media (max-width: 1200px) {
+      #footer-cookie {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: inherit;
+        height: auto;
+      }
+
+      #footer-cookie #description {
+        width: 100%;
+      }
+
+      #footer-cookie #accept {
+        width: 100%;
+        margin-top: 15px;
+      }
+
+      #footer-cookie #accept a {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
